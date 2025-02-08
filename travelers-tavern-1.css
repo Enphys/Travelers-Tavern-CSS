@@ -14,7 +14,7 @@ a:hover {
 
 /* ✅ Background - You can change this to any image URL */
 html, body {
-    background: url('https://your-image-url-here.jpg') no-repeat center center fixed !important;
+    background: url('https://64.media.tumblr.com/5a9080f2ea484d51d0dd5e57905c416c/f67287d71a49c757-94/s2048x3072/5d3082ea339fbc0d5b8f4b78e610b657a69e6a14.pnj') no-repeat center center fixed !important;
     background-size: cover !important;
     color: #5a3e2b !important;
     font-family: 'Merienda', cursive !important;
@@ -22,10 +22,20 @@ html, body {
     min-height: 100vh !important;
 }
 
+/* ✅ Header Styling */
+#header {
+    background: rgba(50, 35, 20, 0.9) !important; /* Match the rest of the theme */
+    color: #e5d2b8 !important;
+    text-align: center !important;
+    padding: 15px 0 !important;
+    font-family: 'Merienda', cursive !important;
+    border-bottom: 2px solid #9b6d44 !important;
+}
+
 /* ✅ Styling for Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
-    color: #5a3e2b !important;
+    color: #e5d2b8 !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
