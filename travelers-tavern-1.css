@@ -14,33 +14,6 @@ a:hover {
 
 /* ✅ Background - You can change this to any image URL */
 html, body {
-    background: url('https://64.media.tumblr.com/5a9080f2ea484d51d0dd5e57905c416c/f67287d71a49c757-94/s2048x3072/5d3082ea339fbc0d5b8f4b78e610b657a69e6a14.pnj') no-repeat center center fixed !important;
-    background-size: cover !important;
-    color: #5a3e2b !important;
-    font-family: 'Merienda', cursive !important;
-    height: 100% !important;
-    min-height: 100vh !important;
-}
-
-/* ✅ Remove Hover Growth Effect */
-.navbar:hover, .container:hover, .box:hover, .content:hover {
-    transform: none !important;
-  /* Traveler's Tavern Custom CSS */
-
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-
-/* Custom Cursor */
-body {
-    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), auto !important;
-}
-
-a:hover {
-    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer !important;
-}
-
-/* ✅ Background - You can change this to any image URL */
-html, body {
     background: url('https://your-image-url-here.jpg') no-repeat center center fixed !important;
     background-size: cover !important;
     color: #5a3e2b !important;
@@ -49,27 +22,26 @@ html, body {
     min-height: 100vh !important;
 }
 
-/* ✅ Remove Hover Growth Effect */
-.navbar:hover, .container:hover, .box:hover, .content:hover {
-    transform: none !important;
-    transition: none !important;
-}
-
-/* ✅ Fix Header Positioning */
+/* ✅ Fix Header Positioning & Ensure Customization Always Applies */
 #header {
     position: relative !important;
     z-index: 100 !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+    background: rgba(50, 35, 20, 0.9) !important; /* Ensure background applies */
+    width: 100% !important;
+    padding: 15px 0 !important;
 }
 
-/* ✅ Fix Welcome Back Positioning */
+/* ✅ Fix "Welcome Back" Positioning */
 #userbar {
     position: absolute !important;
     top: 10px !important;
     right: 15px !important;
     z-index: 101 !important;
+    color: #e5d2b8 !important;
+    font-weight: bold !important;
 }
 
 /* ✅ Fix Navigation Tabs (Den, Hoard, Chatter, etc.) */
@@ -78,8 +50,8 @@ html, body {
     justify-content: center !important;
     align-items: center !important;
     flex-direction: row !important;
-    background: rgba(50, 35, 20, 0.9) !important;
-    padding: 10px !important;
+    background: none !important;
+    padding: 10px 0 !important;
     width: 100% !important;
     margin-top: 10px !important;
 }
@@ -94,7 +66,9 @@ html, body {
 
 .navbar ul li {
     display: inline-block !important;
-    margin: 0 10px !important;
+    margin: 0 15px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
 }
 
 .navbar ul li ul {
