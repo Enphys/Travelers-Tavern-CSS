@@ -47,15 +47,23 @@ html, body {
     height: 37px !important;
 }
 
-/* ✅ Bottom Border for Navigation Tabs */
-.nav-tabs {
-    border-bottom: 3px solid #dfcaab !important;
+/* Den crossroads hoard chatter news event grove help */
+#header .navbar-main {
+    position: relative;
+    background-color: #a48065;
+    min-height: 56px;
+}
+/* WELCOME BACK */
+#header .navbar-status {
+    background-color: #443b2b;
+    color: #fff;
+    height: 37px;
 }
 
 /* ✅ Side Cards Styling */
 #sidebar .card {
     border: 2px solid #dfcaab !important;
-    background-color: #433832 !important;
+    background-color: #dfcaab !important;
     padding: 10px !important;
     border-radius: 10px !important;
 }
