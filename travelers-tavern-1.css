@@ -40,6 +40,13 @@ html, body {
     border-bottom: 2px solid #9b6d44 !important;
 }
 
+/* ✅ Welcome Back Bar Styling */
+#header .navbar-status {
+    background-color: #433832 !important; /* Dark earthy brown */
+    color: #fff !important;
+    height: 37px !important;
+}
+
 /* ✅ Styling for Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
