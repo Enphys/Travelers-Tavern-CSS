@@ -1,6 +1,6 @@
 /* Traveler's Tavern Custom CSS */
 
-/* Import font for better styling */
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
 /* Custom Cursor */
@@ -12,36 +12,51 @@ a:hover {
     cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer !important;
 }
 
-/* Force Background Color (Light Tan) */
+/* ✅ Force Background Color to Light Tan */
 html, body {
-    background-color: #f5e1c8 !important; /* Ensures the background applies */
-    color: #5a3e2b !important; /* Text color adjusted for contrast */
-    font-family: 'Merienda', cursive !important; /* Enforces the rustic font */
+    background-color: #f5e1c8 !important; /* Forces the background */
+    color: #5a3e2b !important; /* Adjusted text color */
+    font-family: 'Merienda', cursive !important; /* Handwritten-style font */
+    height: 100% !important;
+    min-height: 100vh !important; /* Ensures the background fills the entire page */
 }
 
-/* Remove Dropdown Menu */
-.navbar ul {
-    display: flex !important; /* Forces nav items to stay in a row */
+/* ✅ Fix Navigation Bar (Restore Original Layout) */
+.navbar {
+    display: flex !important;
     justify-content: center !important;
-    flex-wrap: nowrap !important;
+    align-items: center !important;
+    flex-direction: row !important; /* Ensures a row format */
+    background: rgba(50, 35, 20, 0.9) !important; /* Darker rustic background */
+    padding: 10px !important;
+    width: 100% !important;
+}
+
+/* ✅ Ensure Nav Links Are in One Row */
+.navbar ul {
+    display: flex !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar ul li {
+    display: inline-block !important;
+    margin: 0 10px !important;
 }
 
 .navbar ul li ul {
-    display: none !important; /* Hides dropdown menus */
-    position: unset !important;
-    visibility: hidden !important;
-    height: 0px !important;
-    overflow: hidden !important;
+    display: none !important; /* Hides unwanted dropdowns */
 }
 
-/* Styling for Titles */
+/* ✅ Styling for Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
     color: #5a3e2b !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
-/* Panels & Content Boxes */
+/* ✅ Panels & Content Boxes */
 .container, .box, .content {
     background: rgba(50, 35, 20, 0.8) !important; /* Dark translucent background */
     border: 2px solid #9b6d44 !important; /* Rustic brown borders */
@@ -49,7 +64,7 @@ h1, h2, h3 {
     border-radius: 10px !important;
 }
 
-/* Links */
+/* ✅ Links */
 a {
     color: #b07a50 !important; /* Adjusted link color */
     text-decoration: none !important;
@@ -61,7 +76,7 @@ a:hover {
     text-shadow: 0px 0px 6px rgba(255, 186, 90, 0.8) !important;
 }
 
-/* Buttons */
+/* ✅ Buttons */
 button {
     background: #9b6d44 !important;
     color: #e5d2b8 !important;
@@ -77,7 +92,7 @@ button:hover {
     text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8) !important;
 }
 
-/* Custom hover effect */
+/* ✅ Custom Hover Effect */
 .box:hover, .container:hover {
     transform: scale(1.02) !important;
     transition: transform 0.3s ease !important;
