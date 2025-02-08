@@ -76,6 +76,11 @@ html, body {
     padding: 5px !important;
 }
 
+/* Target small text on group forum pages */
+#main table#fraPost-22006 small {
+    color: #433832 !important; /* Light beige to match theme */
+}
+
 /* Header Styling */
 #header {
     background: #403832 !important;
