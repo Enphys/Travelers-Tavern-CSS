@@ -57,7 +57,7 @@ html, body {
 
 /* Target ONLY the bank section */
 #main .row.mb-4:has(.card input[name="currency"]) .card {
-    background-color: #a48065 !important;
+    background-color: #d3bc97 !important;
     color: #a48065 !important;
     border: 2px solid #433832 !important;
 }
@@ -65,7 +65,7 @@ html, body {
 /* Remove striped effect from the table */
 .table-striped tbody tr:nth-of-type(odd),
 .table-striped tbody tr:nth-of-type(even) {
-    background-color: #433832 !important; /* Set a single uniform background color */
+    background-color: #a48065 !important; /* Set a single uniform background color */
 }
 
 /* Header Styling */
