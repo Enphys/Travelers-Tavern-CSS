@@ -22,6 +22,19 @@ html, body {
     min-height: 100vh !important;
 }
 
+/* Den crossroads hoard chatter news event grove help */
+#header .navbar-main {
+    position: relative;
+    background-color: #403832;
+    min-height: 56px;
+}
+/* WELCOME BACK */
+#header .navbar-status {
+    background-color: #a48065;
+    color: #fff;
+    height: 37px;
+}
+
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
     background: #433832 !important; /* Dark earthy brown */
@@ -41,35 +54,36 @@ html, body {
 }
 
 /* Navigation Bar */
-#header .navbar-main {
-    background-color: #403832 !important;
-    min-height: 56px !important;
+.nav-tabs .nav-link {
+    border: 1px solid #221e16;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
-
-#sidebar .card {
-    border: 1px solid #000000;
-    border-bottom: 8px solid #403832;
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000000;
     background-color: #dfcaab;
-    margin-bottom: 15px;
-    width: 100%;
-    border-radius: 5%;
-    color: #ffffff;
+    border-color: #a48065;
 }
-#sidebar #card-user a img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-div.progress {
-    background: #b3996f!important;
-    border: solid 2px #00000;
+.nav-tabs {
+    border-bottom: 1px solid #d3bc97 !important;
 }
 
-/* Notification Bars */
-.alert-info, .alert-warning, .alert-danger, .alert-success {
-    border: 2px solid #dfcaab !important;
-    background: #433832 !important;
-    color: #e5d2b8 !important;
+/* Home Tag PackName */
+#header .breadcrumb-nav {
+    background-color: #dfcaab;
+}
+.breadcrumb-item.active {
+    color: #000000;
+}
+
+/* Bookmark */
+.text-danger {
+    color: #221e16 !important;
+}
+.alert-info {
+    color: #000000;
+    background-color: #d3bc97;
+    border-color: #221e16;
 }
 
 /* Titles */
