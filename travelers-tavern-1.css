@@ -11,7 +11,7 @@ a:hover {
 
 /* Background Color (Light Tan) */
 body {
-    background-color: #f5e1c8; /* Light tan color */
+    background-color: #f5e1c8 !important; /* Forces the background to apply */
     color: #e5d2b8; /* Warm, rustic text color */
     font-family: 'Merienda', cursive; /* Rustic, handwritten font */
 }
