@@ -47,6 +47,26 @@ html, body {
     height: 37px !important;
 }
 
+/* ✅ Bottom Border for Navigation Tabs */
+.nav-tabs {
+    border-bottom: 3px solid #dfcaab !important;
+}
+
+/* ✅ Side Cards Styling */
+#sidebar .card {
+    border: 2px solid #dfcaab !important;
+    background-color: #433832 !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+
+/* ✅ Notification Bars Styling */
+.alert-info, .alert-warning, .alert-danger, .alert-success {
+    border: 2px solid #dfcaab !important;
+    background: #433832 !important;
+    color: #e5d2b8 !important;
+}
+
 /* ✅ Styling for Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
