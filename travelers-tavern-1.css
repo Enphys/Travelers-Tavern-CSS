@@ -68,6 +68,14 @@ html, body {
     background-color: #a48065 !important; /* Set a single uniform background color */
 }
 
+/* Target Hoard Item Containers */
+#fraHoardList .col-4.col-md-3.col-xl-2.mb-2 {
+    background-color: #8c6754 !important; /* Darker background */
+    border: 2px solid #dfcaab !important;
+    border-radius: 8px !important;
+    padding: 5px !important;
+}
+
 /* Header Styling */
 #header {
     background: #403832 !important;
