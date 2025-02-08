@@ -1,4 +1,4 @@
-/* Traveler's Tavern Custom CSS - Fresh Start */
+/* Traveler's Tavern Custom CSS */
 
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
@@ -12,16 +12,23 @@ a:hover {
     cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer !important;
 }
 
-/* ✅ Background - Light Tan */
+/* ✅ Background - You can change this to any image URL */
 html, body {
-    background-color: #f5e1c8 !important; /* Ensures background applies */
-    color: #5a3e2b !important; /* Text color for contrast */
-    font-family: 'Merienda', cursive !important; /* Sets readable font */
+    background: url('https://64.media.tumblr.com/5a9080f2ea484d51d0dd5e57905c416c/f67287d71a49c757-94/s2048x3072/5d3082ea339fbc0d5b8f4b78e610b657a69e6a14.pnj') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: #5a3e2b !important;
+    font-family: 'Merienda', cursive !important;
     height: 100% !important;
-    min-height: 100vh !important; /* Ensures background fills page */
+    min-height: 100vh !important;
 }
 
-/* ✅ Navigation Bar */
+/* ✅ Remove Hover Growth Effect */
+.navbar:hover, .container:hover, .box:hover, .content:hover {
+    transform: none !important;
+    transition: none !important;
+}
+
+/* ✅ Navigation Bar - Keeping it as it is */
 .navbar {
     display: flex !important;
     justify-content: center !important;
@@ -32,24 +39,7 @@ html, body {
     width: 100% !important;
 }
 
-/* ✅ Navigation Links Stay in a Row */
-.navbar ul {
-    display: flex !important;
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.navbar ul li {
-    display: inline-block !important;
-    margin: 0 10px !important;
-}
-
-.navbar ul li ul {
-    display: none !important; /* Removes dropdown menus */
-}
-
-/* ✅ Title Styling */
+/* ✅ Styling for Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
     color: #5a3e2b !important;
@@ -91,10 +81,3 @@ button:hover {
     background: #b07a50 !important;
     text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8) !important;
 }
-
-/* ✅ Hover Effect */
-.box:hover, .container:hover {
-    transform: scale(1.02) !important;
-    transition: transform 0.3s ease !important;
-}
-
