@@ -1,0 +1,67 @@
+/* Traveler's Tavern Custom CSS */
+
+/* Custom Cursor */
+body {
+    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), auto;
+}
+
+a:hover {
+    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer;
+}
+
+/* Background */
+body {
+    background: url('https://64.media.tumblr.com/91f69b9aef1e76261cb12691d4159b30/83bc43a4840b28d9-49/s2048x3072/09cda460728be678275fd10965364ac8c4ee388e.pnj') no-repeat center center fixed;
+    background-size: cover;
+    color: #e5d2b8; /* Warm, rustic text color */
+    font-family: 'Merienda', cursive; /* Rustic, handwritten font */
+}
+
+/* Styling for group headers */
+h1, h2, h3 {
+    font-family: 'Merienda', cursive;
+    color: #e5d2b8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Group Boxes & Panels */
+.container, .box, .content {
+    background: rgba(50, 35, 20, 0.8); /* Dark translucent background */
+    border: 2px solid #9b6d44; /* Rustic brown borders */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    color: #f4d06f; /* Golden link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffba5a;
+    text-shadow: 0px 0px 6px rgba(255, 186, 90, 0.8);
+}
+
+/* Buttons */
+button {
+    background: #9b6d44;
+    color: #e5d2b8;
+    border: none;
+    padding: 8px 12px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #b07a50;
+    text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8);
+}
+
+/* Custom hover effect (similar to your example) */
+.box:hover, .container:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
