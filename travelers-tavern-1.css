@@ -9,12 +9,22 @@ a:hover {
     cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer;
 }
 
-/* Background */
+/* Background Color (Light Tan) */
 body {
-    background: url('https://your-image-link-here.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-color: #f5e1c8; /* Light tan color */
     color: #e5d2b8; /* Warm, rustic text color */
     font-family: 'Merienda', cursive; /* Rustic, handwritten font */
+}
+
+/* Remove Dropdown Menu in Navigation */
+.navbar ul {
+    display: flex !important; /* Forces items to stay in a row */
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.navbar ul li ul {
+    display: none !important; /* Hides dropdown menus */
 }
 
 /* Styling for group headers */
