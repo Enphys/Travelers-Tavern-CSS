@@ -22,8 +22,8 @@ html, body {
     min-height: 100vh !important;
 }
 
-/* ✅ Background Color for Text Containers */
-.container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
+/* ✅ Background Color for Content Area & Sidebar */
+#main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message, #sidebar {
     background: #433832 !important; /* Dark earthy brown */
     border: 2px solid #9b6d44 !important;
     padding: 10px !important;
