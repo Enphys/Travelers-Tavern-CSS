@@ -10,10 +10,10 @@ a:hover {
 }
 
 /* Background Color (Light Tan) */
-body {
+html, body {
     background-color: #f5e1c8 !important; /* Forces the background to apply */
-    color: #e5d2b8; /* Warm, rustic text color */
-    font-family: 'Merienda', cursive; /* Rustic, handwritten font */
+    color: #5a3e2b !important; /* Adjusted text color for readability */
+    font-family: 'Merienda', cursive !important; /* Rustic, handwritten font */
 }
 
 /* Remove Dropdown Menu in Navigation */
@@ -25,53 +25,57 @@ body {
 
 .navbar ul li ul {
     display: none !important; /* Hides dropdown menus */
+    position: unset !important; /* Prevents them from floating */
+    visibility: hidden !important; /* Ensures they can't appear */
+    height: 0px !important;
+    overflow: hidden !important;
 }
 
 /* Styling for group headers */
 h1, h2, h3 {
-    font-family: 'Merienda', cursive;
-    color: #e5d2b8;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Merienda', cursive !important;
+    color: #5a3e2b !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Group Boxes & Panels */
 .container, .box, .content {
-    background: rgba(50, 35, 20, 0.8); /* Dark translucent background */
-    border: 2px solid #9b6d44; /* Rustic brown borders */
-    padding: 10px;
-    border-radius: 10px;
+    background: rgba(50, 35, 20, 0.8) !important; /* Dark translucent background */
+    border: 2px solid #9b6d44 !important; /* Rustic brown borders */
+    padding: 10px !important;
+    border-radius: 10px !important;
 }
 
 /* Links */
 a {
-    color: #f4d06f; /* Golden link color */
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    color: #b07a50 !important; /* Adjusted link color */
+    text-decoration: none !important;
+    transition: color 0.3s ease-in-out !important;
 }
 
 a:hover {
-    color: #ffba5a;
-    text-shadow: 0px 0px 6px rgba(255, 186, 90, 0.8);
+    color: #ffba5a !important;
+    text-shadow: 0px 0px 6px rgba(255, 186, 90, 0.8) !important;
 }
 
 /* Buttons */
 button {
-    background: #9b6d44;
-    color: #e5d2b8;
-    border: none;
-    padding: 8px 12px;
-    font-family: 'Merienda', cursive;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    background: #9b6d44 !important;
+    color: #e5d2b8 !important;
+    border: none !important;
+    padding: 8px 12px !important;
+    font-family: 'Merienda', cursive !important;
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
 }
 
 button:hover {
-    background: #b07a50;
-    text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8);
+    background: #b07a50 !important;
+    text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8) !important;
 }
 
 /* Custom hover effect (similar to your example) */
 .box:hover, .container:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
+    transform: scale(1.02) !important;
+    transition: transform 0.3s ease !important;
 }
