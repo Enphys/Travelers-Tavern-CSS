@@ -43,6 +43,18 @@ html, body {
     border-radius: 10px !important;
 }
 
+.table .left {
+    background-color: #dfcaab !important; /* Adjust to match your theme */
+}
+
+.bg-tertiary {
+    background-color: #dfcaab !important; /* Adjust to match your theme */
+}
+
+.bottom {
+    background-color: #dfcaab !important; /* Adjust to match your theme */
+}
+
 /* Header Styling */
 #header {
     background: #403832 !important;
