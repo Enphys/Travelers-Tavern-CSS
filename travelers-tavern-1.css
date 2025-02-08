@@ -42,16 +42,27 @@ html, body {
 
 /* Navigation Bar */
 #header .navbar-main {
-    background-color: #a48065 !important;
+    background-color: #403832 !important;
     min-height: 56px !important;
 }
 
-/* Sidebar Cards */
 #sidebar .card {
-    border: 2px solid #dfcaab !important;
-    background-color: #a48065 !important;
-    padding: 10px !important;
-    border-radius: 10px !important;
+    border: 1px solid #000000;
+    border-bottom: 8px solid #403832;
+    background-color: #dfcaab;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5%;
+    color: #ffffff;
+}
+#sidebar #card-user a img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+div.progress {
+    background: #b3996f!important;
+    border: solid 2px #00000;
 }
 
 /* Notification Bars */
