@@ -56,8 +56,9 @@ html, body {
 }
 
 /* Target ONLY the bank section */
-#main .row.mb-4 [data-form="bank"] .card {
+#main .row.mb-4:has(.card input[name="currency"]) .card {
     background-color: #d3bc97 !important;
+    color: #d3bc97 !important;
     border: 2px solid #433832 !important;
 }
 
