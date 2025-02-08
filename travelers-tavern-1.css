@@ -76,9 +76,19 @@ html, body {
     padding: 5px !important;
 }
 
-/* Target small text on group forum pages */
-#main table#fraPost-22006 small {
+/* Target small text on all group forum pages */
+#main table.small, 
+#main table td small, 
+#main table th small {
     color: #433832 !important; /* Light beige to match theme */
+}
+
+/* Target links within forum posts */
+#main table a, 
+#main table td a, 
+#main table th a {
+    color: #a48065 !important; /* Warm brown for links */
+    text-decoration: none !important;
 }
 
 /* Header Styling */
