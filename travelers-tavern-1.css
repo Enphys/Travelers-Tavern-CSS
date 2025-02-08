@@ -71,15 +71,9 @@ html, body {
 /* Target Hoard Item Containers */
 #fraHoardList .col-4.col-md-3.col-xl-2.mb-2 {
     background-color: #8c6754 !important; /* Darker background */
-    border: 2px solid #dfcaab !important;
+    border: 2px solid #8c6754 !important;
     border-radius: 8px !important;
     padding: 5px !important;
-}
-
-/* Target the Item Image Area */
-#fraHoardList .col-4.col-md-3.col-xl-2.mb-2 .image img {
-    filter: brightness(10%) contrast(80%) !important; /* Adjust brightness & contrast */
-    border-radius: 5px !important;
 }
 
 /* Header Styling */
