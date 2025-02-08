@@ -1,44 +1,47 @@
 /* Traveler's Tavern Custom CSS */
 
+/* Import font for better styling */
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
 /* Custom Cursor */
 body {
-    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), auto;
+    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), auto !important;
 }
 
 a:hover {
-    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer;
+    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer !important;
 }
 
-/* Background Color (Light Tan) */
+/* Force Background Color (Light Tan) */
 html, body {
-    background-color: #f5e1c8 !important; /* Forces the background to apply */
-    color: #5a3e2b !important; /* Adjusted text color for readability */
-    font-family: 'Merienda', cursive !important; /* Rustic, handwritten font */
+    background-color: #f5e1c8 !important; /* Ensures the background applies */
+    color: #5a3e2b !important; /* Text color adjusted for contrast */
+    font-family: 'Merienda', cursive !important; /* Enforces the rustic font */
 }
 
-/* Remove Dropdown Menu in Navigation */
+/* Remove Dropdown Menu */
 .navbar ul {
-    display: flex !important; /* Forces items to stay in a row */
-    justify-content: center;
-    flex-wrap: nowrap;
+    display: flex !important; /* Forces nav items to stay in a row */
+    justify-content: center !important;
+    flex-wrap: nowrap !important;
 }
 
 .navbar ul li ul {
     display: none !important; /* Hides dropdown menus */
-    position: unset !important; /* Prevents them from floating */
-    visibility: hidden !important; /* Ensures they can't appear */
+    position: unset !important;
+    visibility: hidden !important;
     height: 0px !important;
     overflow: hidden !important;
 }
 
-/* Styling for group headers */
+/* Styling for Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
     color: #5a3e2b !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
-/* Group Boxes & Panels */
+/* Panels & Content Boxes */
 .container, .box, .content {
     background: rgba(50, 35, 20, 0.8) !important; /* Dark translucent background */
     border: 2px solid #9b6d44 !important; /* Rustic brown borders */
@@ -74,7 +77,7 @@ button:hover {
     text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8) !important;
 }
 
-/* Custom hover effect (similar to your example) */
+/* Custom hover effect */
 .box:hover, .container:hover {
     transform: scale(1.02) !important;
     transition: transform 0.3s ease !important;
