@@ -55,6 +55,17 @@ html, body {
     background-color: #dfcaab !important; /* Adjust to match your theme */
 }
 
+/* Change the background of the bank containers */
+.bank-container {
+    background-color: #a48065 !important; /* Adjust to match your theme */
+}
+
+/* Remove striped effect from the table */
+.table-striped tbody tr:nth-of-type(odd),
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #433832 !important; /* Set a single uniform background color */
+}
+
 /* Header Styling */
 #header {
     background: #403832 !important;
