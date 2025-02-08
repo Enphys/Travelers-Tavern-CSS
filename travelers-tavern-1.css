@@ -55,9 +55,10 @@ html, body {
     background-color: #dfcaab !important; /* Adjust to match your theme */
 }
 
-/* Change the background of the bank containers */
-.bank-container {
-    background-color: #a48065 !important; /* Adjust to match your theme */
+/* Change bank container background */
+#main .card {
+    background-color: #d3bc97 !important; /* Adjust to match your theme */
+    border: 2px solid #433832 !important;
 }
 
 /* Remove striped effect from the table */
