@@ -68,7 +68,7 @@ html, body {
     border-bottom: 1px solid #d3bc97 !important;
 }
 
-/* Home Tag PackName */
+/* Home Tag Groupname */
 #header .breadcrumb-nav {
     background-color: #dfcaab;
 }
@@ -123,6 +123,21 @@ h1, h2, h3 {
     color: #e5d2b8 !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
+
+/* Announcements */
+.card-footer {
+    background-color: #a48065 !important; /* Match your theme */
+    color: #e5d2b8 !important; /* Adjust to a readable color */
+}
+
+.card-footer a {
+    color: #b07a50 !important; /* Link color */
+}
+
+.card-footer a:hover {
+    color: #ffba5a !important; /* Hover effect */
+}
+
 
 /* Links */
 a {
