@@ -87,7 +87,7 @@ html, body {
 #main table a, 
 #main table td a, 
 #main table th a {
-    color: #a48065 !important; /* Warm brown for links */
+    color: #f6ebdc !important; /* Warm brown for links */
     text-decoration: none !important;
 }
 
