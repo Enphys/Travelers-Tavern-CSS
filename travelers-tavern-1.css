@@ -78,7 +78,7 @@ html, body {
 
 /* Target the Item Image Area */
 #fraHoardList .col-4.col-md-3.col-xl-2.mb-2 .image img {
-    filter: brightness(50%) contrast(80%) !important; /* Adjust brightness & contrast */
+    filter: brightness(80%) contrast(10%) !important; /* Adjust brightness & contrast */
     border-radius: 5px !important;
 }
 
