@@ -56,7 +56,7 @@ html, body {
 }
 
 /* Change bank container background */
-#main .card {
+#main[data-ui="group_bank"] .card {
     background-color: #d3bc97 !important; /* Adjust to match your theme */
     border: 2px solid #433832 !important;
 }
