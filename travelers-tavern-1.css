@@ -56,7 +56,7 @@ html, body {
 }
 
 /* Change bank container background */
-.breadcrumb-nav:has(a[href*="Bank"]) ~ #main .row.mb-4 .card {
+.nav-tabs .nav-link.active[href*="bank"] ~ #main .row.mb-4 .card {
     background-color: #d3bc97 !important;
     border: 2px solid #433832 !important;
 }
