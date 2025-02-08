@@ -22,26 +22,6 @@ html, body {
     min-height: 100vh !important;
 }
 
-/* ✅ Revert Header to Default Wolvden Style */
-#header {
-    all: unset !important; /* Removes all previous modifications */
-}
-
-/* ✅ Revert Navigation Bar */
-.navbar {
-    all: unset !important;
-}
-
-/* ✅ Fix "Welcome Back" Positioning */
-#userbar {
-    position: absolute !important;
-    top: 10px !important;
-    right: 15px !important;
-    z-index: 101 !important;
-    color: #e5d2b8 !important;
-    font-weight: bold !important;
-}
-
 /* ✅ Styling for Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
