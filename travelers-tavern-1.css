@@ -1,4 +1,4 @@
-/* Traveler's Tavern Custom CSS */
+/* Traveler's Tavern Custom CSS - Based on Ivory Forest Theme */
 
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
@@ -12,17 +12,17 @@ a:hover {
     cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer !important;
 }
 
-/* ✅ Background - You can change this to any image URL */
+/* Background */
 html, body {
-    background: url('https://64.media.tumblr.com/5a9080f2ea484d51d0dd5e57905c416c/f67287d71a49c757-94/s2048x3072/5d3082ea339fbc0d5b8f4b78e610b657a69e6a14.pnj') no-repeat center center fixed !important;
+    background: url('your-tavern-background-image.jpg') no-repeat center center fixed !important;
     background-size: cover !important;
-    color: #5a3e2b !important;
+    color: #e5d2b8 !important; /* Light beige for text */
     font-family: 'Merienda', cursive !important;
     height: 100% !important;
     min-height: 100vh !important;
 }
 
-/* ✅ Background Color for Content Area & Sidebar */
+/* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message, #sidebar {
     background: #433832 !important; /* Dark earthy brown */
     border: 2px solid #9b6d44 !important;
@@ -30,9 +30,9 @@ html, body {
     border-radius: 10px !important;
 }
 
-/* ✅ Header Styling */
+/* Header Styling */
 #header {
-    background: rgba(50, 35, 20, 0.9) !important; /* Match the rest of the theme */
+    background: rgba(50, 35, 20, 0.9) !important;
     color: #e5d2b8 !important;
     text-align: center !important;
     padding: 15px 0 !important;
@@ -40,27 +40,13 @@ html, body {
     border-bottom: 2px solid #9b6d44 !important;
 }
 
-/* ✅ Welcome Back Bar Styling */
-#header .navbar-status {
-    background-color: #433832 !important; /* Dark earthy brown */
-    color: #fff !important;
-    height: 37px !important;
-}
-
-/* Den crossroads hoard chatter news event grove help */
+/* Navigation Bar */
 #header .navbar-main {
-    position: relative;
-    background-color: #a48065;
-    min-height: 56px;
-}
-/* WELCOME BACK */
-#header .navbar-status {
-    background-color: #443b2b;
-    color: #fff;
-    height: 37px;
+    background-color: #a48065 !important;
+    min-height: 56px !important;
 }
 
-/* ✅ Side Cards Styling */
+/* Sidebar Cards */
 #sidebar .card {
     border: 2px solid #dfcaab !important;
     background-color: #dfcaab !important;
@@ -68,21 +54,21 @@ html, body {
     border-radius: 10px !important;
 }
 
-/* ✅ Notification Bars Styling */
+/* Notification Bars */
 .alert-info, .alert-warning, .alert-danger, .alert-success {
     border: 2px solid #dfcaab !important;
     background: #433832 !important;
     color: #e5d2b8 !important;
 }
 
-/* ✅ Styling for Titles */
+/* Titles */
 h1, h2, h3 {
     font-family: 'Merienda', cursive !important;
-    color: #5a3e2b !important;
+    color: #e5d2b8 !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
-/* ✅ Links */
+/* Links */
 a {
     color: #b07a50 !important;
     text-decoration: none !important;
@@ -94,7 +80,7 @@ a:hover {
     text-shadow: 0px 0px 6px rgba(255, 186, 90, 0.8) !important;
 }
 
-/* ✅ Buttons */
+/* Buttons */
 button {
     background: #9b6d44 !important;
     color: #e5d2b8 !important;
@@ -108,4 +94,24 @@ button {
 button:hover {
     background: #b07a50 !important;
     text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8) !important;
+}
+
+/* Table Styling */
+table, th, td {
+    border: 1px solid #9b6d44 !important;
+    padding: 5px !important;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9b6d44 !important;
+    border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #433832 !important;
 }
