@@ -56,8 +56,8 @@ html, body {
 }
 
 /* Change bank container background */
-#main[data-ui="group_bank"] .card {
-    background-color: #d3bc97 !important; /* Adjust to match your theme */
+.breadcrumb-nav:has(a[href*="Bank"]) ~ #main .row.mb-4 .card {
+    background-color: #d3bc97 !important;
     border: 2px solid #433832 !important;
 }
 
