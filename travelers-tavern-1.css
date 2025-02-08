@@ -141,7 +141,7 @@ h1, h2, h3 {
 
 /* Links */
 a {
-    color: #bfa48e !important;
+    color: #e0dad0 !important;
     text-decoration: none !important;
     transition: color 0.3s ease-in-out !important;
 }
