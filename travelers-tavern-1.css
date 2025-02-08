@@ -55,8 +55,8 @@ html, body {
     background-color: #dfcaab !important; /* Adjust to match your theme */
 }
 
-/* Change bank container background */
-.nav-tabs .nav-link.active[href*="bank"] ~ #main .row.mb-4 .card {
+/* Target ONLY the bank section */
+#main .row.mb-4 [data-form="bank"] .card {
     background-color: #d3bc97 !important;
     border: 2px solid #433832 !important;
 }
